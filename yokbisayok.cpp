@@ -2,4 +2,13 @@
 using namespace std;
 
 int main() { //mulai
-    int p, 1, luas; // deklarasi}
+    int p, 1, luas; // deklarasi
+
+    //langkah 2
+    cout << "Masukkan panjang = ";
+    cin >> p;
+
+    //langkah 3
+    cout << "Masukkan lebar = ";
+    cin << 1;
+}
