@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() { //mulai
-    int p, 1, luas; // deklarasi
+    int p, l, luas; // deklarasi
 
     //langkah 2
     cout << "Masukkan panjang = ";
@@ -10,5 +10,12 @@ int main() { //mulai
 
     //langkah 3
     cout << "Masukkan lebar = ";
-    cin << 1;
-}
+    cin >> l;
+
+    //langkah 4
+    luas = p * l;
+
+    //langkah 5
+    cout << "Hasilnya = " << luas << endl;
+    cout << "terima kasih";
+} //selesai
